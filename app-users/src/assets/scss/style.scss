@@ -1,0 +1,62 @@
+// https://gist.github.com/davidgilbertson/ad24b42b0eddde2dc6b1b51f9460af11/
+@mixin for-phone-only {
+    @media (max-width: 599px) {
+      @content;
+    }
+  }
+  
+  @mixin for-tablet-portrait-up {
+    @media (min-width: 600px) {
+      @content;
+    }
+  }
+  
+  @mixin for-tablet-landscape-up {
+    @media (min-width: 900px) {
+      @content;
+    }
+  }
+  
+  @mixin for-desktop-up {
+    @media (min-width: 1200px) {
+      @content;
+    }
+  }
+  
+  @mixin for-big-desktop-up {
+    @media (min-width: 1800px) {
+      @content;
+    }
+  }
+  
+  @mixin for-tablet-landscape-down {
+    @media (max-width: 900px) {
+      @content;
+    }
+  }
+  
+  @mixin for-desktop-down {
+    @media (max-width: 1200px) {
+      @content;
+    }
+  }
+
+
+  h1.title {
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #CCC;
+    text-align: center;
+        @include for-phone-only {
+            margin-top: 0.5em;
+      font-size: 1.8em;
+        }
+  }
+
+  .info,.alert{
+      text-align: center;
+  }
+
+  .form,.alerts{
+      margin: 0 auto;
+  }

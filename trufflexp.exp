@@ -1,0 +1,9 @@
+#!/usr/bin/expect -f
+
+spawn truffle console --network ganache
+expect "truffle>"
+send "migrate --reset --compile-all\r\r"
+expect "truffle>"
+send "test --reset-all\r\r"
+interact
+
