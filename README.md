@@ -32,8 +32,8 @@ truffle console --network ganache
 ```sh
 > migrate --reset --compile-all
 ```
-5) If the migration was successful, copy the file **~/ethereum-vuejs-dapp/build/contracts/Users.json** (which contains the "abi") into the folder **~/ethereum-vuejs-dapp/app-users/src/assets/**
-6) Open another terminal in the folder **ethereum-vuejs-dapp/app-users** and run the command (without sudo):
+5) If the migration was successful, copy the file **~/ethereum-vuejs-dapp/build/contracts/Users.json** (which contains the "abi") into the folder **~/ethereum-vuejs-dapp/frontend/src/assets/**
+6) Open another terminal in the folder **ethereum-vuejs-dapp/frontend** and run the command (without sudo):
 ```sh
 npm install
 ```
@@ -107,7 +107,7 @@ It is very convenient to share the same accounts in Ganache/MetaMask from multip
 6) When developing from a new machine, follow the same steps from 1.
 
 
-**NOTE** the /app-users/build/ directory is needed for ``` npm install && npm run serve```
+**NOTE** the /frontend/build/ directory is needed for ``` npm install && npm run serve```
 
 # Connecting MetaMask with Ganache
 0) Open the MetaMask addon and find where it says **Main Ethereum Network**
@@ -153,9 +153,9 @@ expect trufflexp.exp
 ```
 After the first command is done, in another terminal:
 ```sh
-cp build/contracts/Degrees.json app-users/src/assets/Degrees.json
+cp build/contracts/Degrees.json frontend/src/assets/Degrees.json
 ```
 Finally, in another terminal:
 ```sh
-cd app-users/ && npm run serve
+cd frontend/ && npm run serve
 ```

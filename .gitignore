@@ -1,3 +1,4 @@
 /build
-/app-users/node_modules
-/app-users/package-lock.json
+/node_modules
+/frontend/node_modules
+/frontend/package-lock.json

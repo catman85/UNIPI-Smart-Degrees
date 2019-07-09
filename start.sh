@@ -1,8 +1,8 @@
 #! /bin/sh
 
-cd app-users/
+cd frontend/
 xterm -e npm run serve --hold &
 cd ../
 xterm -e expect trufflexp.exp --hold &
-sleep 20
-cp build/contracts/Degrees.json app-users/src/assets/Degrees.json
+sleep 25
+cp build/contracts/Degrees.json frontend/src/assets/Degrees.json
