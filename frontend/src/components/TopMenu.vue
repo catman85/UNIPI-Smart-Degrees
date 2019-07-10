@@ -79,9 +79,8 @@
         this.connectedText = 'Connected to BC';
       },
 
-      //Check if the user is registered calling the function of the smart contract getProfessorIndex.
       checkIfUserIsProfessor() {
-        let attempts = 2;
+        let attempts = 3;
         let count = 0;
 
         this.tmoCheck = setInterval(() => {
@@ -93,7 +92,7 @@
             this.showLink();
           }
           count++;
-        }, 500);
+        }, 1000);
       },
 
       showLink() {

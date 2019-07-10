@@ -129,15 +129,17 @@ Make sure the **start.sh** script has execution privilages.
 chmod +x start.h
 ```
 
-After opening the Ganache GUI, execute:
+After opening the Ganache GUI, open yout browser, sign in to MetaMask and connnect to Ganache's RPC network.
+
+Then execute:
 ```sh
-**./start.sh**
+./start.sh
 ```
 
 This little script will :
-- connect truffle with ganache migrate
+- connect truffle with ganache
 - test your contracts
-- copy the compiled contracts 
+- copy the compiled contracts
 - run the frontend part of the app
 
 # Development Quickstart (Windows WSL)
@@ -147,7 +149,9 @@ Make sure you have installed expect in your machine. And you are located in the 
 ```sh
 apt-get install expect
 ```
-Run: 
+After opening up Ganache UI,
+
+run: 
 ```sh
 expect trufflexp.exp
 ```
@@ -155,6 +159,9 @@ After the first command is done, in another terminal:
 ```sh
 cp build/contracts/Degrees.json frontend/src/assets/Degrees.json
 ```
+
+Then open your browser, sign in to MetaMask and connect to Ganache's RPC network.
+
 Finally, in another terminal:
 ```sh
 cd frontend/ && npm run serve

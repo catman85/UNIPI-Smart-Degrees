@@ -86,16 +86,6 @@ export default {
   
           })
 
-        // Original
-        // window.bc.getMainAccount()
-        // .then(mainAccount => {
-        //     window.bc.contract().getProfessorIndex({ from: mainAccount }, (error, res) => {
-        //         if (error) reject(error);
-        //         console.debug(mainAccount);
-        //         resolve(res);
-        //     });
-        // })
-        // .catch(error => reject(error));
       });
     },
 
