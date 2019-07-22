@@ -16,6 +16,8 @@ Anyone with this person's details can verify he is a graduate.
 - Ganache or your private network
 - Metamask
 
+### Main skeleton of the app was found [here](https://github.com/danielefavi/ethereum-vuejs-dapp)
+
 # Installation
 
 1) ```sh
