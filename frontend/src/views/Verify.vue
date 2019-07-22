@@ -53,7 +53,7 @@
               this.$swal('This Person doesn\'t own a Degree','Error','error');
             }
           })
-          // .catch(error => { // mysterious undefuned error
+          // .catch(error => { // mysterious undefined error
           //   reject(error)
           // });
         }

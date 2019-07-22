@@ -1,6 +1,14 @@
-# Ethereum and VueJS DApp
+# Diploma Validation Platform 🎓
+# 🔥 Ethereum and VueJS DApp 🔷
 
-This is a simple decentralized application built using **Ethereum** blockchain and **Vue JS** for the front-end. 
+This is a simple decentralized application built using **Ethereum** blockchain and **Vue JS** for the front-end.
+
+## Use Case:
+Selected members of an institution sign degrees.
+
+After enough signatures have been gathered for an individual, he is considered a graduate.
+
+Anyone with this person's details can verify he is a graduate.
 
 # Prerequisite
 - NPM version 5.8.0
@@ -166,3 +174,19 @@ Finally, in another terminal:
 ```sh
 cd frontend/ && npm run serve
 ```
+
+# Screenshots
+
+![ ](https://i.imgur.com/glHe5Jc.jpg "")
+
+![ ](https://i.imgur.com/6PfVymV.jpg "")
+
+![ ](https://i.imgur.com/yKsbl11.jpg "")
+
+![ ](https://i.imgur.com/w0vzWzI.jpg "")
+
+![ ](https://i.imgur.com/oj7JYdz.jpg "")
+
+![ ](https://i.imgur.com/elaT4tR.jpg "")
+
+![ ](https://i.imgur.com/efhThA4.jpg "")
