@@ -15,7 +15,7 @@ contract Degrees {
     uint private k = 2;// the required amount of signatures to be considered a graduate
 
     // the string will be the hash of the graduates info
-    // uint[] is an array of professor's indexes that signed the graduation of a give student.
+    // uint[] is an array of professor's indexes that signed the graduation of a given student.
     mapping(string => uint[]) public graduates;
 
     // this version wastes memory and storage for no reason
