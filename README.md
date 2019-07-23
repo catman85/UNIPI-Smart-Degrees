@@ -22,7 +22,7 @@ Anyone with this person's details can verify he is a graduate.
 
 1) ```sh
    sudo npm install truffle -g
-   git clone git@github.com:catman85/ethereum-vuejs-dapp.git 
+   git clone git@github.com:catman85/UNIPI-Smart-Degrees.git
    cd ethereum-vuejs-dapp/
    ```
    
