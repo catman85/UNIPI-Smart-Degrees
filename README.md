@@ -23,18 +23,18 @@ Anyone with this person's details can verify he is a graduate.
 1) ```sh
    sudo npm install truffle -g
    git clone git@github.com:catman85/UNIPI-Smart-Degrees.git
-   cd ethereum-vuejs-dapp/
+   cd UNIPI-Smart-Degrees/
    ```
    
 2) Start ganache UI for windows.
 
    Click the little settings icon on the top-right.
    
-   Under the workspace tab add your truffle project file. **ethereum-vuejs-dapp/truffle.js**
+   Under the workspace tab add your truffle project file. **UNIPI-Smart-Degrees/truffle.js**
    
    Save and your workspace and launch it.
    
-3) Open the terminal in the folder **ethereum-vuejs-dapp/** and run the command:
+3) Open the terminal in the folder **UNIPI-Smart-Degrees/** and run the command:
 ```sh
 truffle console --network ganache
 ```
@@ -42,8 +42,8 @@ truffle console --network ganache
 ```sh
 > migrate --reset --compile-all
 ```
-5) If the migration was successful, copy the file **~/ethereum-vuejs-dapp/build/contracts/Users.json** (which contains the "abi") into the folder **~/ethereum-vuejs-dapp/frontend/src/assets/**
-6) Open another terminal in the folder **ethereum-vuejs-dapp/frontend** and run the command (without sudo):
+5) If the migration was successful, copy the file **~/UNIPI-Smart-Degrees/build/contracts/Users.json** (which contains the "abi") into the folder **~/UNIPI-Smart-Degrees/frontend/src/assets/**
+6) Open another terminal in the folder **UNIPI-Smart-Degrees/frontend** and run the command (without sudo):
 ```sh
 npm install
 ```
@@ -111,7 +111,7 @@ It is very convenient to share the same accounts in Ganache/MetaMask from multip
 0) Generate a new seed with metamask. Once you have that seed,
 1) Create a new workspace with Ganache:
 2) Under Accounts&Keys enter the menomonic you generated with MetaMask.
-3) Under Workspace add the **ethereum-vuejs-dapp/truffle.js** project file.
+3) Under Workspace add the **UNIPI-Smart-Degrees/truffle.js** project file.
 4) Save your Workspace and launch it.
 5) finally run ``` truffle console --network ganache ``` and you should be inside the truffle console.
 6) When developing from a new machine, follow the same steps from 1.
