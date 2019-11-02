@@ -42,7 +42,7 @@ truffle console --network ganache
 ```sh
 > migrate --reset --compile-all
 ```
-5) If the migration was successful, copy the file **~/UNIPI-Smart-Degrees/build/contracts/Users.json** (which contains the "abi") into the folder **~/UNIPI-Smart-Degrees/frontend/src/assets/**
+5) If the migration was successful, copy the file **~/UNIPI-Smart-Degrees/build/contracts/Degrees.json** (which contains the "abi") into the folder **~/UNIPI-Smart-Degrees/frontend/src/assets/**
 6) Open another terminal in the folder **UNIPI-Smart-Degrees/frontend** and run the command (without sudo):
 ```sh
 npm install
